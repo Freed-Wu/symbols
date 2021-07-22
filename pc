@@ -19,7 +19,7 @@ xkb_symbols "pc105" {
     key  <TAB> {	[ Tab,	ISO_Left_Tab	]	};
     key <RTRN> {	[ Return		]	};
 
-    key <CAPS> {	[ Caps_Lock		]	};
+    key <CAPS> {	[ Control_R		]	};
     key <NMLK> {	[ Num_Lock 		]	};
 
     key <LFSH> {	[ Shift_L		]	};
@@ -27,7 +27,7 @@ xkb_symbols "pc105" {
     key <LWIN> {	[ Super_L		]	};
 
     key <RTSH> {	[ Shift_R		]	};
-    key <RCTL> {	[ Control_R		]	};
+    key <RCTL> {	[ Caps_Lock		]	};
     key <RWIN> {	[ Super_R		]	};
     key <MENU> {	[ Menu			]	};
 

@@ -3,7 +3,7 @@ partial modifier_keys
 xkb_symbols "meta_alt" {
     key <LALT> { [ Alt_L, Meta_L ] };
     key <RALT> { type[Group1] = "TWO_LEVEL",
-                 symbols[Group1] = [ Alt_R, Meta_R ] };
+                 symbols[Group1] = [ Escape ] };
     modifier_map Mod1 { Alt_L, Alt_R, Meta_L, Meta_R };
 //  modifier_map Mod4 {};
 };
